@@ -1,8 +1,27 @@
-  # WW2Bot
-  A chatbot about World War 2, built with Next.js, OpenAI, and PostgreSQL.
 
-  ## Setup
-  1. Clone the repo
-  2. Run `npm install`
-  3. Set up your `.env` file
-  4. Run `npm run dev`
+---
+
+## 🤖 How It Works
+
+- The frontend (`page.tsx`) lets you chat with the bot.
+- When you send a message, it’s saved in the database and sent to OpenAI for a response.
+- The bot’s answer is saved and shown in the chat window.
+- If you refresh, your chat history is loaded from the database.
+
+---
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙋‍♂️ Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📫 Contact
+
+Questions? Open an issue or reach out on GitHub: [@TheGrumpyToad](https://github.com/TheGrumpyToad)
